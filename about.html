@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piyush Vats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      body,#navbar {
+        
+        background-image: url('navbar.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+
+        color: #3a3939;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #343a40;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      header ul {
+        list-style: none;
+        padding: 0;
+      }
+      header ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      header ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      header ul li a:hover {
+        color: #cccccc;
+      }
+      .section {
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      .about-section {
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      .education-section {
+        background-color: #f0f0f0;
+      }
+      .skills-section {
+        background-color: #e0e0e0;
+      }
+      .experience-section {
+        background-color: #d0d0d0;
+      }
+      .achievements-section {
+        background-color: #c0c0c0;
+      }
+      .section h2 {
+        margin-bottom: 20px;
+      }
+      .section p {
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+      .section ul {
+        padding-left: 20px;
+        margin-bottom: 15px;
+      }
+      .section ul li {
+        margin-bottom: 8px;
+      }
+      footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin-top: 20px;
+      }
+      footer p {
+        margin: 0;
+      }
+      #blur {
+       background-color: rgba(255, 255, 255, 0.2); 
+       backdrop-filter: blur(10px); 
+      padding: 20px; 
+      margin-bottom: 20px; 
+      transition: all 0.3s ease; 
+      }
+
+    #blur:hover {
+      background-color: rgba(235, 88, 88, 0.4); 
+      
+      }
+
+      .nav-item {
+  transition: transform 0.3s ease; 
+  color: #fc0202;
+}
+
+    .nav-item:hover {
+      transform: scale(1.3); 
+      transform: perspective(30deg);
+      } 
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id = "navbar" class="container mt-6 a">
+      
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div  class="container">
+      <section id="blur" class="about-section section">
+        <h2>About Me</h2>
+        <p>
+          Greetings! I'm Piyush Vats, currently enrolled in the BCA program at IITM Janakpuri, which is affiliated with Guru Gobind Singh Indraprastha University (IPU).
+        <p>
+          My academic journey includes achieving a commendable 90% in my 12th-grade exams, and now I'm immersed in BCA studies. Alongside my academic pursuits, I harbor a deep passion for programming. I've honed my skills in technical communication, C, HTML, JavaScript, CSS, and Bootstrap.
+        </p>
+        <p>
+          Beyond the classroom, I actively engage in extracurricular activities such as coding competitions, hackathons, and volunteering, which enrich my overall learning experience.
+        </p>
+        <p>
+          For me, learning is a continuous process, and I thrive on exploring new technologies to expand my skill set. I'm eagerly looking forward to applying my knowledge and skills to make meaningful contributions to the tech industry.
+        </p>
+      </section>
+
+      <section id="blur" class="education-section section">
+        <h2>Education</h2>
+        <ul>
+          <li>10th Grade - Completed with 95% marks</li>
+          <li>12th Grade - Completed with 90% marks</li>
+          <li>BCA (Bachelor of Computer Applications) - IITM Janakpuri, IP University, Ongoing</li>
+          
+        </ul>
+      </section>
+
+      <section id="blur" class="skills-section section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Technical Communication</li>
+          <li>C Programming</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </section>
+
+      <section id="blur" class="experience-section section">
+        <h2>Experience</h2>
+        <ul>
+          <li>Participated in coding competitions and hackathons</li>
+          <li>Volunteer work in community projects</li>
+        </ul>
+      </section>
+
+      <section id="blur" class="achievements-section section">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Recognition for academic excellence (12th grade)</li>
+         
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Piyush Vats. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-image: url(login.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    width: 100%;
+}
+
+.container {
+    max-width: 600px;
+}
+
+form {
+    display: flex; /* Use flexbox for the form container */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center items horizontally within the form container */
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.d1 {
+    display: flex; /* Use flexbox for the fieldset container */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center items horizontally within the fieldset container */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    height: 410px;
+}
+
+.a1, .a2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a2 {
+    margin-left: 10px;
+}
